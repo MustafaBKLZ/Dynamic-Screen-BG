@@ -38,12 +38,12 @@
 pip install -r requirements.txt
 
 # Run the application / Uygulamayı çalıştır
-python main_v2.py
+python main.py
 ```
 
 **Or / Veya:**
-- Double-click `baslat_v2.bat`
-- To build EXE / EXE oluşturmak için: `build_exe_v2.bat`
+- Double-click `baslat.bat`
+- To build EXE / EXE oluşturmak için: `build_exe.bat`
 
 ---
 

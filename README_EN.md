@@ -78,15 +78,15 @@ cd DynamicScreenBG
 pip install -r requirements.txt
 
 # Run the application
-python main_v2.py
+python main.py
 ```
 
-**Alternative:** Double-click the `baslat_v2.bat` file.
+**Alternative:** Double-click the `baslat.bat` file.
 
 #### 2. Building EXE (Standalone)
 ```bash
 # Start the build process
-build_exe_v2.bat
+build_exe.bat
 ```
 This process:
 - Installs required packages (`flet`, `pyinstaller`)
@@ -130,7 +130,7 @@ This process:
 ┌─────────────────────────────────────────┐
 │           Flet UI (Flutter)             │  ← Modern, responsive UI
 ├─────────────────────────────────────────┤
-│      App Logic (main_v2.py)             │  ← Main application logic
+│      App Logic (main.py)             │  ← Main application logic
 ├─────────────────────────────────────────┤
 │  Wallpaper Service (wallpaper_service)  │  ← Monitor and wallpaper management
 ├─────────────────────────────────────────┤
@@ -178,7 +178,7 @@ This process:
 ### Code Structure
 ```
 DynamicScreenBG/
-├── main_v2.py              # Main application and UI
+├── main.py              # Main application and UI
 ├── wallpaper_service.py    # Service layer
 ├── locales/                # Language files
 │   ├── tr.json
@@ -188,8 +188,8 @@ DynamicScreenBG/
 ├── github.svg              # GitHub icon
 ├── x.svg                   # X (Twitter) icon
 ├── requirements.txt        # Python dependencies
-├── baslat_v2.bat          # Run script
-└── build_exe_v2.bat       # Build script
+├── baslat.bat          # Run script
+└── build_exe.bat       # Build script
 ```
 
 ### Custom UI Components
@@ -198,7 +198,7 @@ DynamicScreenBG/
 - **`LanguageManager`:** Multi-language support system
 
 ### Adding New Features
-1. Edit the `main_v2.py` / `App` class for UI changes
+1. Edit the `main.py` / `App` class for UI changes
 2. Edit the `wallpaper_service.py` / `WallpaperService` class for service logic
 3. Update `locales/tr.json` and `locales/en.json` for new language strings
 

@@ -78,15 +78,15 @@ cd DynamicScreenBG
 pip install -r requirements.txt
 
 # Uygulamayı başlatın
-python main_v2.py
+python main.py
 ```
 
-**Alternatif:** `baslat_v2.bat` dosyasına çift tıklayın.
+**Alternatif:** `baslat.bat` dosyasına çift tıklayın.
 
 #### 2. EXE Oluşturma (Standalone)
 ```bash
 # Build işlemini başlatın
-build_exe_v2.bat
+build_exe.bat
 ```
 Bu işlem:
 - Gerekli paketleri yükler (`flet`, `pyinstaller`)
@@ -130,7 +130,7 @@ Bu işlem:
 ┌─────────────────────────────────────────┐
 │           Flet UI (Flutter)             │  ← Modern, responsive UI
 ├─────────────────────────────────────────┤
-│      App Logic (main_v2.py)             │  ← Ana uygulama mantığı
+│      App Logic (main.py)             │  ← Ana uygulama mantığı
 ├─────────────────────────────────────────┤
 │  Wallpaper Service (wallpaper_service)  │  ← Monitör ve duvar kağıdı yönetimi
 ├─────────────────────────────────────────┤
@@ -178,7 +178,7 @@ Bu işlem:
 ### Kod Yapısı
 ```
 DynamicScreenBG/
-├── main_v2.py              # Ana uygulama ve UI
+├── main.py              # Ana uygulama ve UI
 ├── wallpaper_service.py    # Servis katmanı
 ├── locales/                # Dil dosyaları
 │   ├── tr.json
@@ -188,8 +188,8 @@ DynamicScreenBG/
 ├── github.svg              # GitHub ikonu
 ├── x.svg                   # X (Twitter) ikonu
 ├── requirements.txt        # Python bağımlılıkları
-├── baslat_v2.bat          # Çalıştırma script'i
-└── build_exe_v2.bat       # Build script'i
+├── baslat.bat          # Çalıştırma script'i
+└── build_exe.bat       # Build script'i
 ```
 
 ### Custom UI Components
@@ -198,7 +198,7 @@ DynamicScreenBG/
 - **`LanguageManager`:** Çok dilli destek sistemi
 
 ### Yeni Özellik Ekleme
-1. UI değişiklikleri için `main_v2.py` / `App` sınıfını düzenleyin
+1. UI değişiklikleri için `main.py` / `App` sınıfını düzenleyin
 2. Servis mantığı için `wallpaper_service.py` / `WallpaperService` sınıfını düzenleyin
 3. Yeni dil stringleri için `locales/tr.json` ve `locales/en.json` güncelleyin
 
