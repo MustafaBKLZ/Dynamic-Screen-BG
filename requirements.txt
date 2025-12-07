@@ -1,0 +1,13 @@
+# Windows COM API için gerekli paket
+pywin32>=305
+comtypes>=1.1.10
+
+# System tray için
+pystray>=0.19.0
+Pillow>=9.0.0
+
+# UI Framework
+flet>=0.21.0
+
+# Python 3.7+ gereklidir
+

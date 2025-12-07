@@ -1,0 +1,22 @@
+{
+    "app_title": "Dinamik Ekran Arkaplanı",
+    "monitors": "Monitörler",
+    "log_history": "LOG KAYDI",
+    "no_monitor_selected": "Seçili Monitör Yok",
+    "select_monitor_msg": "Ayarları düzenlemek için bir monitör seçin",
+    "auto_change": "Otomatik Değişim",
+    "save": "Kaydet",
+    "add_images": "Resim Ekle",
+    "clear_all": "Tümünü Temizle",
+    "settings": "Ayarlar",
+    "language": "Dil / Language",
+    "show_logs": "Log Kaydını Göster",
+    "settings_saved": "Ayarlar Kaydedildi",
+    "images_added": "{count} resim eklendi",
+    "gallery_cleared": "Galeri temizlendi",
+    "app_show": "Uygulamayı Göster",
+    "exit": "Çıkış",
+    "created_by": "Mustafa BÜKÜLMEZ tarafından oluşturuldu",
+    "tooltip_delete": "Kaldır",
+    "tray_notification": "Pencere kapatma isteği algılandı, gizleniyor..."
+}

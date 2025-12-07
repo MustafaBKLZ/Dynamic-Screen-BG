@@ -1,0 +1,22 @@
+{
+    "app_title": "Dynamic Screen BG",
+    "monitors": "Monitors",
+    "log_history": "LOG HISTORY",
+    "no_monitor_selected": "No Monitor Selected",
+    "select_monitor_msg": "Select a monitor to edit settings",
+    "auto_change": "Auto Change",
+    "save": "Save",
+    "add_images": "Add Images",
+    "clear_all": "Clear All",
+    "settings": "Settings",
+    "language": "Language / Dil",
+    "show_logs": "Show Logs",
+    "settings_saved": "Settings Saved",
+    "images_added": "{count} images added",
+    "gallery_cleared": "Gallery cleared",
+    "app_show": "Show App",
+    "exit": "Exit",
+    "created_by": "Created by Mustafa BÜKÜLMEZ",
+    "tooltip_delete": "Remove",
+    "tray_notification": "Close request detected, minimizing to tray..."
+}
