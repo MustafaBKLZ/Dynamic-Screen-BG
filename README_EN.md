@@ -43,7 +43,7 @@
 
 ## 📸 Screenshots
 
-| Main Screen and Gallery | Settings Panel |
+| Main Screen and Gallery 1 | Main Screen and Gallery 2 |
 |:-----------------------:|:--------------:|
 | ![Screenshot 1](screenshots/main.png) | ![Screenshot 2](screenshots/settings.png) |
 
