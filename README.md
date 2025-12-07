@@ -51,7 +51,7 @@ python main_v2.py
 
 | Ana Ekran ve Galeri 1 | Ana Ekran ve Galeri 2 |
 |:-------------------:|:--------------:|
-| ![Screenshot 1](screenshots/main.png) | ![Screenshot 2](screenshots/settings.png) |
+| ![Screenshot 1](screenshots/main.png) | ![Screenshot 2](screenshots/settings.png) | 
 
 ---
 
